@@ -34,23 +34,23 @@ Provides a foundation for research in adaptive data transfer strategies and supp
 
 **Experimental Results (Summary)**:
 
-  | Nodes | local monitoring (MB) | Runtime Optimized (MB)| Improvement (%) |
-  |-------|-----------------------| ----------------------| ----------------|
-  | 3     | 920                   | 700                   | 23.91           |
-  | 5     | 1100                  | 820                   | 25.45           |
-  | 7     | 1280                  | 940                   | 26.56           |
-  | 9     | 1460                  | 1050                  | 28.08           |
-  | 11    | 1640                  | 1180                  | 28.05           |
+  | File Size (MB) | Unccompressed Transfer (ms) |  Compressed Transfer (ms))| Improvement (%) |
+  |----------------|-----------------------------| --------------------------| ----------------|
+  | 100            | 820                         | 480                       | 41.46           |
+  | 300            | 2350                        | 1320                      | 43.83           |
+  | 500            | 3800                        | 2050                      | 46.05           |
+  | 700            | 5200                        | 2750                      | 47.12           |
+  | 900            | 6650                        | 3400                      | 48.87           |
 
 **Citation** \
-Reducing Runtime Overhead in Distributed Congestion Monitoring Systems. \
+Adaptive Compression Scheduling for Network Efficient Data Transfers. \
 Vijaya Krishna Namala \
-International Journal of Technology and Applied Science \
-E-ISSN- 2230-9004  \
+International Journal of Innovative Research and Creative Technology \
+E-ISSN- 2454-5988 \
 **License** \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijsat.org/ \
+https://www.ijirct.org/ \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/vijaya-krishna-namala-a42b2958 | **Email**: vijaya.namala@gmail.com
 
