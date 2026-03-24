@@ -19,6 +19,7 @@ Introduced a shared aggregation approach where telemetry data is centrally maint
 Designed lightweight data collection techniques that limit local buffering and reduce unnecessary memory allocation during monitoring operations.
 * **Scalability Evaluation Across Cluster Sizes:**\
 Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze memory consumption behavior and validate improved scalability.
+
 **Relevance & Real World Impact**
 * **Reduced Memory Consumption :**\
 The proposed approach significantly lowers memory usage by avoiding duplicated telemetry storage and optimizing buffer management in distributed monitoring systems.
