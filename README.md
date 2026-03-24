@@ -8,7 +8,7 @@
 * Impact Factor : 9.142
 
 **Abstract:**
-Distributed congestion monitoring systems often consume excessive memory due to independent telemetry storage and duplication across nodes. This work proposes a memory efficient framework that consolidates telemetry handling and minimizes redundant buffering. By introducing shared aggregation and lightweight data collection, the approach significantly reduces runtime memory overhead. Experimental results across multiple cluster sizes demonstrate improved scalability and efficient resource utilization in distributed environments.
+Modern distributed systems transfer large volumes of data, but static approaches such as always compressed or uncompressed transfers lead to inefficient resource utilization. This work analyzes the trade off between bandwidth consumption and computational overhead during data movement. It demonstrates that compression significantly reduces transfer time by lowering payload size, especially for medium and large files. Experimental results show improved scalability and efficiency, highlighting the need for adaptive, runtime aware transfer strategies in distributed environments.
 
 **Key Contributions**
 * **Memory Efficient Monitoring Framework Design:**\
