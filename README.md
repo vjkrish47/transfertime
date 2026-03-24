@@ -11,26 +11,26 @@
 Modern distributed systems transfer large volumes of data, but static approaches such as always compressed or uncompressed transfers lead to inefficient resource utilization. This work analyzes the trade off between bandwidth consumption and computational overhead during data movement. It demonstrates that compression significantly reduces transfer time by lowering payload size, especially for medium and large files. Experimental results show improved scalability and efficiency, highlighting the need for adaptive, runtime aware transfer strategies in distributed environments.
 
 **Key Contributions**
-* **Memory Efficient Monitoring Framework Design:**\
-Developed a distributed monitoring architecture that minimizes memory overhead by eliminating redundant telemetry storage across nodes.
-* **Consolidated Telemetry Storage Mechanism:**\
-Introduced a shared aggregation approach where telemetry data is centrally maintained, avoiding duplication of buffers, logs, and intermediate data across machines.
-* **Reduced Runtime Memory Overhead Strategy:**\
-Designed lightweight data collection techniques that limit local buffering and reduce unnecessary memory allocation during monitoring operations.
-* **Scalability Evaluation Across Cluster Sizes:**\
-Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze memory consumption behavior and validate improved scalability.
+* **Adaptive Compression Scheduling Framework:**\
+Developed a runtime aware data transfer mechanism that dynamically decides whether to apply compression based on file size, network conditions, and system resource availability.
+* **Optimized Bandwidth and Processing Trade Off:**\
+Designed an approach that balances communication cost and computational overhead to minimize overall transfer time in distributed environments.
+* **Comparative Transfer Performance Analysis:**\
+Performed detailed evaluation comparing uncompressed and compressed transfers across multiple file sizes and network conditions to quantify efficiency gains.
+* **Simulation Driven Implementation Model:**\
+Implemented a Go based simulation framework to analyze concurrent transfers, network contention, and compression impact on system performance.
 
 **Relevance & Real World Impact**
-* **Reduced Memory Consumption :**\
-The proposed approach significantly lowers memory usage by avoiding duplicated telemetry storage and optimizing buffer management in distributed monitoring systems.
-* **Improved Resource Utilization :**\
-Efficient memory handling ensures that more system resources remain available for application workloads, improving overall system performance.
+* **Reduced Data Transfer Time :**\
+Adaptive compression significantly lowers transfer latency by reducing payload size, especially for medium and large files in distributed systems.
+* **Efficient Bandwidth Utilization :**\
+By minimizing unnecessary data transmission, the approach reduces network congestion and improves overall communication efficiency.
+* **Improved System Performance :**\
+Balanced use of compression avoids excessive processor overhead while maintaining faster data movement across nodes.
 * **Enhanced Scalability in Distributed Environments :**\
-Controlled memory growth with increasing cluster size enables scalable monitoring without excessive resource overhead.
-* **Stable System Performance :**\
-Lower memory pressure reduces risks of garbage collection delays and paging, ensuring consistent and reliable monitoring behavior.
+The framework supports efficient data transfer as workload size increases, enabling stable and scalable system behavior.
 * **Academic and Practical Contribution :**\
-Provides a structured approach for designing resource efficient monitoring systems, supporting further research and real world implementation in cloud and distributed infrastructures.
+Provides a foundation for research in adaptive data transfer strategies and supports real world implementation in cloud, storage, and distributed platforms.
 
 **Experimental Results (Summary)**:
 
